@@ -16,14 +16,6 @@ i{
     cursor: pointer;
 }
 
-.jumbotron{
-    border: 1px dashed green;
-}
-
-section{
-    border: 1px dashed rebeccapurple;
-    
-}
 
 header button{
     color: white;
@@ -36,11 +28,12 @@ header button{
     background-image:url(img/jumbo-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 350px;
+    height: 450px;
+    background-position: center;
 }
 
 .jumbo-top img{
-    width: 40%;
+    width: 100%;
 }
 
 .jumbo-top button{
@@ -56,18 +49,62 @@ header button{
     border-radius: 20px;
 }
 
+
+.play-has h6{
+    color: rgb(115,177,228);    
+}
+
+.play-has button{
+    background-color: rgb(45,100,230);
+    padding: 5px 9px;
+    border: 0;
+    border-radius: 20px;
+    color: white;
+}
+
+.ps-plus button{
+    background-color:rgb(217,218,220);
+    color: rgb(54,106,229);
+    padding: 5px 10px;
+    border: 0;
+    border-radius: 20px;
+}
+
+.ps-now button{
+    color: black;
+    border: 0;
+    border-radius: 20px;
+    padding: 5px 10px;
+}
+
 .top-nr{
     background-image: url(img/it-takes-two-hero-banner-desktop.jpg);
-    height: 350px;
+    height: 450px;
     background-size: cover;
 }
 
+.top-nr button{
+    background-color: rgb(205,61,15);
+    border: 0;
+    border-radius: 20px;
+    padding: 5px 5px;
+    color: white;
+}
 .bottom-nr{
     background-color: rgb(31,31,31);
 }
 
 .bottom-nr p{
     color: white;
+}
+
+
+.explore-ps4 button{
+    background-color: rgb(45,100,230);
+    color: white;
+    padding: 5px 9px;
+    border: 0;
+    border-radius: 20px;
 }
 
 img{
@@ -81,4 +118,30 @@ img{
 
 .ps-now{
     background-color: rgb(22,28,59);
+}
+
+
+.social img{
+    width: 60%;
+}
+
+footer{
+    background-color: rgb(0,67,156);
+    color: white;
+}
+
+#ps{
+    width: 40%;
+}
+
+#sie{
+    width: 30%;
+}
+
+footer a{
+    color: white;
+}
+
+p i{
+    font-size: 10px;
 }
