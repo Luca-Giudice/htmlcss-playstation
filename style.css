@@ -88,15 +88,15 @@ header button{
 }
 
 
-.ch img{
+.ch .col{
     opacity: 0.5;
 }
 
-.ch img:hover{
-    opacity: 1;
-    border-bottom: 2px solid rgb(45,100,230);
-    border-radius: 0;
 
+
+.ch .col:hover {
+    border-bottom: 2px solid rgb(45,100,230);
+    opacity: 1;
 }
     
 .ps-plus button{
