@@ -90,6 +90,7 @@ header button{
 
 .ch .col{
     opacity: 0.5;
+    cursor: pointer;
 }
 
 
@@ -137,16 +138,16 @@ header button{
 
 .top-nr button{
     background-color: rgb(205,61,15);
-    border: 5px double transparent ;
     border-radius: 20px;
     padding: 5px 5px;
     color: white;
+    border: 0;
 }
 
 .top-nr button:hover{
-    border-block-end-color: transparent;
-    border-block-start-color: transparent;
-    border-inline-color: transparent;
+    border-collapse: separate;
+    border-color: rgb(205,61,15);
+    border: 3px;
 }
 
 .bottom-nr{
