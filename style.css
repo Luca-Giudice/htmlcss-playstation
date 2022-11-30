@@ -16,14 +16,35 @@ i{
     cursor: pointer;
 }
 
+img{
+    width: 90%;
+    border-radius: 20px;
+}
+
+
+
+
+/* header */
+
 
 header button{
     color: white;
     background-color: rgb(54,54,54);
     padding: 5px 8px;
     border-radius: 20px;
+    border: 5px double transparent;
 }
 
+header button:hover{
+    border-block-end-color: white;
+    border-block-start-color: white;
+    border-inline-color: white;
+
+}
+
+/* Main */
+
+/* Jumbo */
 .jumbo-top{
     background-image:url(img/jumbo-bg.png);
     background-repeat: no-repeat;
@@ -46,15 +67,12 @@ header button{
 }
 
 .jumbo-top button:hover{
-    border-block-color: red;
+
     border-block-end-color: black;
     border-block-start-color: black;
     border-inline-color: black;
 
 }
-
-
-
 
 .jumbo-bottom img{
     width: 100%;
@@ -67,7 +85,7 @@ header button{
     transform: scale(1.05) translateY(-5px);
 }
 
-
+/* Play has */
 .play-has h6{
     color: rgb(115,177,228);    
 }
@@ -100,34 +118,6 @@ header button{
     opacity: 1;
 }
     
-.ps-plus button{
-    background-color:rgb(217,218,220);
-    color: rgb(54,106,229);
-    padding: 5px 10px;
-    border: 5px double transparent;
-    border-radius: 20px;
-}
-
-.ps-plus button:hover{
-    border-block-end-color: rgb(190,188,187);
-    border-block-start-color: rgb(190,188,187);
-    border-inline-color: rgb(190,188,187);
-}
-
-
-
-.ps-now button{
-    color: black;
-    border: 5px double transparent;
-    border-radius: 20px;
-    padding: 5px 10px;
-}
-
-.ps-now button:hover{
-    border-block-end-color: rgb(22,28,59);
-    border-block-start-color: rgb(22,28,59);
-    border-inline-color: rgb(22,28,59);
-}
 
 .top-nr{
     background-image: url(img/it-takes-two-hero-banner-desktop.jpg);
@@ -158,7 +148,47 @@ header button{
     color: white;
 }
 
+/* ps plus */
 
+.ps-plus button{
+    background-color:rgb(217,218,220);
+    color: rgb(54,106,229);
+    padding: 5px 10px;
+    border: 5px double transparent;
+    border-radius: 20px;
+}
+
+.ps-plus button:hover{
+    border-block-end-color: rgb(190,188,187);
+    border-block-start-color: rgb(190,188,187);
+    border-inline-color: rgb(190,188,187);
+}
+
+.ps-plus{
+    background-color: rgb(190,188,187);
+}
+
+/* ps now */
+
+.ps-now button{
+    color: black;
+    border: 5px double transparent;
+    border-radius: 20px;
+    padding: 5px 10px;
+}
+
+.ps-now button:hover{
+    border-block-end-color: rgb(22,28,59);
+    border-block-start-color: rgb(22,28,59);
+    border-inline-color: rgb(22,28,59);
+}
+
+.ps-now{
+    background-color: rgb(22,28,59);
+}
+
+
+/* explore */
 .explore-ps4 button{
     background-color: rgb(45,100,230);
     color: white;
@@ -176,32 +206,19 @@ header button{
 }
 
 
-
-
-img{
-    width: 90%;
-    border-radius: 20px;
-}
-
+/* Sale */
 .sale img{
     border-radius: 0;
 }
 
-.ps-plus{
-    background-color: rgb(190,188,187);
-}
-
-.ps-now{
-    background-color: rgb(22,28,59);
-}
-
-
-
+/* Social */
 
 .social img{
     width: 60%;
     border-radius: 0;
 }
+
+/* Footer */
 
 footer{
     background-color: rgb(0,67,156);
@@ -220,14 +237,25 @@ footer a{
     color: white;
 }
 
+footer a:hover{
+    color: rgb(160, 90, 160);
+}
+
+
+
+/* Font-size */
 p i{
     font-size: 10px;
 }
 
 sup{
-    font-size: 4px;
+    font-size: 8px;
 }
 
 .it{
     width: 60%;
+}
+
+footer i{
+    font-size: 15px;
 }
